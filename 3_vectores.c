@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include "libprueba.h"
-
+#include <stdio.h>
 int main(int argc, char *argv[]) {
   // creamos dos arrays u y v (vectores)
   int dimension = argc / 2;

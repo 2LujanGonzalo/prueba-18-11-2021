@@ -9,5 +9,7 @@ int main(int argc, char *argv[]) {
   // para cada arg restante tratado como un string cada uno
   // cifrarlos con la clave e imprimir el mensaje entero cifrado
   // ejemplo: ./a.out 2 ab cd => cd ef
+  
+    cifrar(argv[2],key);
   return 0;
 }
